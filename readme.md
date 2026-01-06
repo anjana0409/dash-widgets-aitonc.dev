@@ -22,12 +22,8 @@ One of the completed widgets is a **media player controller**, which displays an
 - 🎨 Widget background dynamically updates to the dominant color extracted from the album art
 - ❌ Widget automatically hides when no media players are active (e.g., when the application is closed)
 
-Special thanks to the community members who provided assistance during development. This widget utilizes the MPRIS proxy player implementation from the [Gnome Mpris Label](https://github.com/Moon-0xff/gnome-mpris-label) extension by **Moon-0xff**.
-
-Additional widgets are planned for future implementation.
-
 ### More widgets
-> Will be added soon
+> Additional widgets are planned for future implementation.
 
 ---
 
