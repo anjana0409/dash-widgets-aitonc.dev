@@ -22,7 +22,7 @@ const DashContainer = GObject.registerClass(
 
 export default class DashWidgetsExtension extends Extension {
   enable() {
-    this.dashContainer = new DashContainer();
+    // This is a map of: PluginId v/s [pluginWidget, dashContainer].
     this.plugins = new Map();
 
     this._settings = this.getSettings();
@@ -33,7 +33,6 @@ export default class DashWidgetsExtension extends Extension {
       this._onSettingsChanged.bind(this)
     );
 
-    Main.overview.dash._box.add_child(this.dashContainer);
   }
 
   disable() {
@@ -60,8 +59,12 @@ export default class DashWidgetsExtension extends Extension {
       const module = await import(`./plugins/${pluginName}/widget.js`);
       const widget = new module.default();
       widget.enable();
-      this.dashContainer.add_child(widget, { expand: false });
-      this.plugins.set(pluginName, widget);
+
+      const dashContainer = new DashContainer();
+      dashContainer.add_child(widget, { expand: false });
+      Main.overview.dash._box.add_child(dashContainer);
+
+      this.plugins.set(pluginName, [widget, dashContainer]);
     } catch (e) {
       log(`Error enabling plugin ${pluginName}: ${e.stack}`);
     }
@@ -70,10 +73,10 @@ export default class DashWidgetsExtension extends Extension {
   _disablePlugin(pluginName) {
     if (!this.plugins.has(pluginName)) return;
 
-    const widget = this.plugins.get(pluginName);
+    const [widget, dashContainer] = this.plugins.get(pluginName);
     widget.disable();
-    this.dashContainer.remove_child(widget);
-    widget.destroy();
+    Main.overview.dash._box.remove_child(dashContainer);
+    dashContainer.destroy();
     this.plugins.delete(pluginName);
   }
 
