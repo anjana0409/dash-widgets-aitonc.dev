@@ -52,6 +52,9 @@ git clone https://github.com/aitoncumbi/dash-widgets-aitonc.dev.git
 cd gnome-dash-widgets
 # Copy to the GNOME extensions directory
 cp -r . ~/.local/share/gnome-shell/extensions/dash-widgets@aitonc.dev.git
+# Compile settings schema:
+cd ~/.local/share/gnome-shell/extensions/dash-widgets@aitonc.dev.git
+glib-compile-schemas schemas/
 # Restart GNOME Shell (Alt+F2, type 'r', work only in X session) or Re-login
 ```
 
