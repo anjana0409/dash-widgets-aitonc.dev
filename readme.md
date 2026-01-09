@@ -22,6 +22,9 @@ One of the completed widgets is a **media player controller**, which displays an
 - 🎨 Widget background dynamically updates to the dominant color extracted from the album art
 - ❌ Widget automatically hides when no media players are active (e.g., when the application is closed)
 
+### Analog Clock Widget
+- 🕰️ A simple analog clock. Preferences that change the look to come soon.
+
 ### More widgets
 > Additional widgets are planned for future implementation.
 
